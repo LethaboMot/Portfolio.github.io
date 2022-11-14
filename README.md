@@ -13,7 +13,7 @@ A basic and simple html and css Website that shows my work and projects
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://lethabomot.github.io/Portfolio.github.io/)
 
 
 ## Authors
