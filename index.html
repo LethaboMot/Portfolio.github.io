@@ -2,246 +2,264 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>portfolio</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav class="header_nav">
-            <div class="header_logo blue"><a class="blue" href="#">My Logo</a></div>
-            <div class="header_menu">
-                <img class="menu_icon" src="./images/Union.png" alt="menu" />
+    <header id="toppart">
+        <nav class="toolbar">
+
+            <div><img src="images/My Logo.svg" width="90" height="90"></div>
+
+            <div class="info-tag"><img src="images/Hamburger button.svg" alt="three lines" width="24" height="24"></div>
+            <div class="navigation_option">
+                <a class="">Portfolio</a>
+                <a class="">About</a>
+                <a class="">Contact</a>
             </div>
-            <ul class="nav_items">
-                <li class="nav_item">
-                    <a class="nav_item_action" href="#portfolio">Portfolio</a>
+        </nav>
+
+    </header>
+
+
+    <section id="Introduction">
+        <h1>I'm Lethabo<br> Glad to see you!</h1>
+        <div class="mid">
+            <p>I'm a software developer! I can help you build a product, feature<br> or website Look through some fo my work and experience!<br> If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+        </div>
+        <p class="center">LET'S CONNECT</p>
+        <ul class="Socials">
+            <li>
+                <a href="#"><img src="images/Twitter.svg" alt="Twitter"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/Linkedin.svg" alt="Linkedin"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/Medium.svg" alt="Medium"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/GitHub.svg" alt="GitHub"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/Angel list.svg" alt="ANGEL LIST"></a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="wrap">
+        <div class="whitebox">
+            <div class="imageclass">
+                <img src="images/Nature.png" width="500" height="400" />
+            </div>
+            <div class="description">
+                <h2 class="heading">Tonic</h2>
+
+                <div>
+                    <ul class="list_align">
+                        <li class="bold">CANOPY</li><img src="images/Counter.svg" />
+                        <li>Back End Dev</li><img src="images/Counter.svg" />
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <p>
+                    A daily selection of privately personalized reads;no accounts<br> or sign-ups required.
+                </p>
+                <ul class="tags">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+                <button type="button" class="bluebutton">See More</button>
+            </div>
+
+
+
+        </div>
+        <div class="whitebox">
+            <div class="imageclass">
+                <img src="images/colorfulbasketball.svg" width="500" height="400" />
+            </div>
+            <div class="description">
+                <h2 class="heading">Multi-Post<br>Stories
+                </h2>
+                <div>
+                    <ul class="list_align">
+                        <li class="bold">CANOPY</li><img src="images/Counter.svg" />
+                        <li>Back End Dev</li><img src="images/Counter.svg" />
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <p>
+                    Experimental content creation feature that allows users to<br> add to an existing story over the course of a day without<br> spamming their friends.
+                </p>
+                <ul class="tags">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+                <button type="button" class="bluebutton">See More</button>
+            </div>
+        </div>
+        <div class="whitebox">
+            <div class="imageclass">
+                <img src="images/orange ting.svg" width="500" height="400" />
+            </div>
+            <div class="description">
+                <div>
+                    <h2 class="heading">Facebook</h2>
+                </div>
+                <div>
+                    <ul class="list_align">
+                        <li class="bold">CANOPY</li><img src="images/Counter.svg" />
+                        <li>Back End Dev</li><img src="images/Counter.svg" />
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <p>
+                    Exploring the future of media in Facebook's first Virtual Reality<br> app; a place to discover and enjoy 360 photos and videos on<br> Gear VR.
+                </p>
+                <ul class="tags">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+                <button type="button" class="bluebutton">See More</button>
+            </div>
+
+
+
+        </div>
+
+        <div class="whitebox">
+            <div class="imageclass">
+                <img src="images/uber nav.svg" width="500" height="400" />
+            </div>
+            <div class="description">
+                <h2 class="heading">Uber Navigation<br> Stories
+                </h2>
+                <div>
+                    <ul class="list_align">
+                        <li class="bold">CANOPY</li><img src="images/Counter.svg" />
+                        <li>Back End Dev</li><img src="images/Counter.svg" />
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <p>
+                    A smart assistant to make driving more safe, efficient, and fun<br> by unlocking your most expensive computer: your car.
+                </p>
+                <ul class="tags">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+                <button type="button" class="bluebutton">See More</button>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </section>
+    <section id="about_me">
+        <div class="leftpart">
+            <h2>About<br> Myself</h2>
+            <div class="mid">
+                <p>
+                    Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            </div>
+            <p class="center">LET'S CONNECT</p>
+            <ul class="Socials">
+                <li>
+                    <a href="# "><img src="images/Twitter.svg " alt="Twitter "></a>
                 </li>
-                <li class="nav_item">
-                    <a class="nav_item_action" href="#about">About</a>
+                <li>
+                    <a href="# "><img src="images/Linkedin.svg " alt="Linkedin "></a>
                 </li>
-                <li class="nav_item">
-                    <a class="nav_item_action" href="#contact">Contact</a>
+                <li>
+                    <a href="# "><img src="images/Medium.svg " alt="Medium "></a>
+                </li>
+                <li>
+                    <a href="# "><img src="images/GitHub.svg " alt="GitHub "></a>
+                </li>
+                <li>
+                    <a href="# "><img src="images/Angel list.svg " alt="ANGEL LIST "></a>
                 </li>
             </ul>
-        </nav>
-    </header>
-    <!-- Main Container -->
-    <main class="main_container">
-        <!-- Headline section -->
-        <section class="headline">
-            <h1 class="headline_title">I’m Lethabo Glad to see you!</h1>
-            <p class="headline_content">
-                I’m a software developer! I can help you build a product , feature or website Look <br>through some of my work and experience! If you like what you see<br> and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <div class="headline_lets">
-                <h3 class="social_title blue">LET’S CONNECT</h3>
-                <ul class="social_links">
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/twitter.svg" alt="Twitter" /></a>
-                    </li>
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/Linkedin.svg" alt="Linkedin" /></a>
-                    </li>
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/Medium.svg" alt="M" /></a>
-                    </li>
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/github.svg" alt="Github" /></a>
-                    </li>
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/Angel list.svg" alt="Diot" /></a>
-                    </li>
-                </ul>
+            <div>
+                <button type="button" class="bluebutton">Get my resume</button>
             </div>
-        </section>
+        </div>
 
-
-        <section class="work" id="portfolio">
-
-            <div class="work_card">
-                <div class="work_preview">
-                    <img src="./images/Nature.png" alt="Project 1" width="600" height="500" />
-                </div>
-                <div class="work_details">
-                    <h2 class="work_title">Tonic</h2>
-                    <ul class="work_info">
-                        <li class="w_info_item">CANOPY</li>
-                        <li class="w_info_item">Back End Dev</li>
-                        <li class="w_info_item">2015</li>
-                    </ul>
-                    <p class="work_details_content">
-                        A daily selection of privately personalized reads;no accounts<br> or sign-ups required.
-                    </p>
-                    <ul class="work_cats">
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" class="default_btn">See More</button>
-                </div>
-            </div>
-
-            <!-- work card 2 -->
-            <div class="work_card">
-                <div class="work_preview">
-                    <img src="./images/color basketball.png" width="600" height="500" />
-                </div>
-                <div class="work_details">
-                    <h2 class="work_title">Multi-Post Stories</h2>
-                    <ul class="work_info">
-                        <li class="w_info_item">FACEBOOK</li>
-                        <li class="w_info_item">Back End Dev</li>
-                        <li class="w_info_item">2015</li>
-                    </ul>
-                    <p class="work_details_content">
-                        Experimental content creation feature that allows to add to<br> an existing story over the course of a day<br> without spamming their friends.
-                    </p>
-                    <ul class="work_cats">
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" class="default_btn">See More</button>
-                </div>
-            </div>
-
-            <!-- work card 3 -->
-            <div class="work_card">
-                <div class="work_preview">
-                    <img src="./images/orange image.png" width="600" height="500" />
-                </div>
-                <div class="work_details">
-                    <h2 class="work_title">Facebook</h2>
-                    <ul class="work_info">
-                        <li class="w_info_item">FACEBOOK</li>
-                        <li class="w_info_item">Full Stack Dev</li>
-                        <li class="w_info_item">2015</li>
-                    </ul>
-                    <p class="work_details_content">
-                        Exploring the future of media in Facebook's firt virtual Reality
-                        <br> app; a place to discover and enjoy photo and 360 photos and videos on
-                        <br>Gear VR
-                    </p>
-                    <ul class="work_cats">
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" class="default_btn">See More</button>
-                </div>
-            </div>
-
-            <!-- work card 4-->
-            <div class="work_card">
-                <div class="work_preview">
-                    <img src="./images/Uber nav.png" alt="Project 4" width="600" height="500" />
-                </div>
-                <div class="work_details">
-                    <h2 class="work_title">Uber Nature</h2>
-                    <ul class="work_info">
-                        <li class="w_info_item">Uber</li>
-                        <li class="w_info_item">Lead developer Dev</li>
-                        <li class="w_info_item">2015</li>
-                    </ul>
-                    <p class="work_details_content">
-                        A smart assistant to make driving more safe efficient, and fun
-                        <br> by unlocking you most expensive computer car
-                    </p>
-                    <ul class="work_cats">
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" class="default_btn">See More</button>
-                </div>
-            </div>
-        </section>
-        <!-- end of work section-->
-
-        <section class="about" id="about">
-            <div class="about-me">
-                <h2 class="headline_title">About<br> Myself</h2>
-                <p class="headline_content">
-                    Hello I’m a software developer! I can help you build a <br>product , feature or website Look through some of my <br>work and experience! If you like what you see and have <br>a project you need coded, don’t hestiate to contact me.
-                </p>
-                <h3 class="social_title blue">LET’S CONNECT</h3>
-                <ul class="social_links">
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/twitter.svg" alt="Twitter" /></a>
+        <div class="sidebyside">
+            <ul class="listed">
+                <h3 class="codeused ">
+                    Languages
+                    <img class="down_arrow_icon " src="./images/Icon - Chevron - Down - Larger.png " alt="down " />
+                </h3>
+                <div class="code">
+                    <li class="grey_area ">
+                        <img src="images/javascriptLogo.png " alt="Javascript " /><span>Javascript</span>
                     </li>
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/Linkedin.svg" alt="Linkedin" /></a>
+
+                    <li class="grey_area">
+                        <img src="images/html logo.png " alt="HTML " /><span>HTML</span>
                     </li>
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon M-icon" src="./images/Medium.svg" alt="M" /></a>
+                    <li class="grey_area ">
+                        <img src="images/css logo.png " alt="CSS " />
+                        <span>CSS</span>
                     </li>
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/github.svg" alt="Github" /></a>
-                    </li>
-                    <li class="social_link">
-                        <a href="#"><img class="social_icon" src="./images/Angel list.svg" alt="Diot" /></a>
-                    </li>
-                </ul>
-                <div class="action">
-                    <button type="button" class="default_btn">Get my resume</button>
                 </div>
-            </div>
-            <div class="about_framework">
-                <ul class="about_ul">
-                    <h3 class="sub_title">
-                        Languages
-                        <img class="down_arrow_icon" src="./images/Icon - Chevron - Down - Larger.png" alt="down" />
-                    </h3>
-                    <div class="frameworks_items">
-                        <li class="ul_item">
-                            <img src="./images/javascriptLogo.png" alt="Javascript" /><span>Javascript</span
-            >
-        </li>
-        <li class="ul_item">
-            <img src="./images/html logo.png" alt="HTML" /><span>HTML</span>
-                        </li>
-                        <li class="ul_item">
-                            <img src="./images/css logo.png" alt="CSS" /><span>CSS</span>
-                        </li>
-                </ul>
-                <ul class="about_ul">
-                    <h3 class="sub_title">
+            </ul>
+            <div>
+                <ul class="listed">
+                    <h3 class="codeused  ">
                         Frameworks
-                        <img class="arrow_icon" src="./images/Icon - Chevron - Right - Larger.png" alt="down" />
+                        <img class="arrow_icon " src="images/Icon - Chevron - Right - Larger.png " alt="down " />
                     </h3>
-                </ul>
-                <ul class="about_ul">
-                    <h3 class="sub_title">
-                        Skills
-                        <img class="arrow_icon" src="./images/Icon - Chevron - Right - Larger.png" alt="down" />
+
+                    <img src="images/Separator Bottom.svg " />
+                    <h3 class="codeused  "> Skills
+                        <img class="arrow_icon " src="images/Icon - Chevron - Right - Larger.png " alt="down " />
                     </h3>
+                    <img src="images/Separator Bottom.svg " />
                 </ul>
-                </div>
             </div>
-        </section>
-        <section class="contact_form">
-            <div class="contact_container">
-                <h2 class="Title">Contact me</h2>
-                <p class="CONTACT_form">
-                    If you have an application you are interested in <br>developing, a feature that you need built or a project<br> that needs coding. I’d love to help with it
-                </p>
-                <form class="form_container" action="https://formspree.io/f/mnqroaaw" method="POST">
-                    <fieldset class="form_inputs">
-                        <input class="form_input" name="name" type="text" placeholder="Yeremias" maxlength="30" required />
-                        <input class="form_input" name="email" type="email" placeholder="natajayanj14@gmail.com" required />
-                        <textarea class="form_text_area" name="message" placeholder="Write your message here" maxlength="500" required></textarea>
-                        <button type="submit" class="btn_submit">Get It Touch</button>
-                    </fieldset>
-                </form>
+        </div>
+    </section>
+
+    <footer class="contact-menu">
+
+        <h2 class="background">Contact me</h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+
+
+        <form class="contact-form" action="https://formspree.io/f/}" method="post">
+
+            <input type="text" id="name" name="text" placeholder="Yeremias" size="30" required>
+            <input type="email" id="email" placeholder="natajayanj14@gmail.com" size="30" required>
+            <input type="message" id="message" name="message" placeholder="Write your message here" required minlength="4" maxlength="500" size="100">
+            <div>
+                <button type="submit" class="bluebutton2">Get In touch</button>
             </div>
-        </section>
-    </main>
+
+        </form>
+
+
+
+
+    </footer>
+
+
+
 </body>
 
 </html>
